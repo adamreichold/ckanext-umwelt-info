@@ -17,5 +17,6 @@ setup(
     entry_points="""
         [ckan.plugins]
         wasser_de_harvester=ckanext.umwelt_info.harvesters:WasserDEHarvester
+        doris_bfs_harvester=ckanext.umwelt_info.harvesters:DorisBfSHarvester
     """,
 )

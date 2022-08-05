@@ -9,3 +9,4 @@ except ImportError:
     __path__ = pkgutil.extend_path(__path__, __name__)
 
 from ckanext.umwelt_info.harvesters.wasser_de import WasserDEHarvester
+from ckanext.umwelt_info.harvesters.doris_bfs import DorisBfSHarvester
